@@ -180,14 +180,32 @@ a {
     color: white;
 }
 
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: #003cff;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
 nav a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
     color: white;
-    transition: all 0.25s linear;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    border-bottom: 2px solid dodgerblue;
-    color: dodgerblue;
+    color: #003cff;
 }
 
 .avatar {
