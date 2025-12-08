@@ -18,39 +18,39 @@ header {
 
 @keyframes gradient {
     0% {
-        background: linear-gradient(135deg, blue 0%, yellow 100%);
+        background: linear-gradient(135deg, orange 0%, yellow 100%);
     }
 
     12.5% {
-        background: linear-gradient(135deg, blue 12.5%, yellow 100%);
+        background: linear-gradient(135deg, orange 12.5%, yellow 100%);
     }
 
     25% {
-        background: linear-gradient(135deg, yellow 0%, blue 25%, yellow 100%);
+        background: linear-gradient(135deg, yellow 0%, orange 25%, yellow 100%);
     }
 
     37.5% {
-        background: linear-gradient(135deg, yellow 0%, blue 37.5%, yellow 100%);
+        background: linear-gradient(135deg, yellow 0%, orange 37.5%, yellow 100%);
     }
 
     50% {
-        background: linear-gradient(135deg, yellow 0%, blue 50%, yellow 100%);
+        background: linear-gradient(135deg, yellow 0%, orange 50%, yellow 100%);
     }
 
     67.5% {
-        background: linear-gradient(135deg, yellow 0%, blue 67.5%, yellow 100%);
+        background: linear-gradient(135deg, yellow 0%, orange 67.5%, yellow 100%);
     }
 
     75% {
-        background: linear-gradient(135deg, yellow 0%, blue 75%, yellow 100%);
+        background: linear-gradient(135deg, yellow 0%, orange 75%, yellow 100%);
     }
 
     87.5% {
-        background: linear-gradient(135deg, yellow 0%, blue 87,5%, yellow 100%);
+        background: linear-gradient(135deg, yellow 0%, orange 87,5%, yellow 100%);
     }
 
     100% {
-        background: linear-gradient(135deg, yellow 0%, blue 100%);
+        background: linear-gradient(135deg, yellow 0%, orange 100%);
     }
 }
 
