@@ -55,12 +55,14 @@ header {
     align-items: center;
     justify-content: center;
     gap: 200px;
-    padding: 20px 0 20px 0;
+    padding: 40px 0 40px 0;
     transition: gap 0.25s linear;
 }
 
 .len img {
-    transition: transform 0.25s linear, box-shadow 0.25s linear;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.25s linear;
 }
 
 .len:hover {
@@ -69,7 +71,6 @@ header {
 
 .len img:hover {
     transform: translateY(-10px) scale(1.1);
-    box-shadow: rgba(0,0,0,0.35) 0px 10px 10px 10px;
 }
 
 .container {
